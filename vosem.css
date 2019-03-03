@@ -69,42 +69,42 @@
 }
 .first-page-content{
     height: 700px;
+    padding-top: 5px;
+    
 }
 
-.MAC a img{
+.MAC {
     position:absolute;
     height: 615px;
     width:766px;
+    background: url(images/im.png) no-repeat;
+    margin-left:34px;
+    margin-top:10px;
+    z-index:1;
+    background-size: contain;
 }
 
-.MACBOOK a img{
+.MACBOOK {
     position: absolute;
     height: 395px;
     width: 752px;
+      background: url(images/mb.png) no-repeat ;
+  background-size: contain;
+      margin-left:368px;
+    margin-top:235px;
+    z-index: 2;
 }
-.IPHONE a img{
+.IPHONE {
     position: absolute;
     height: 312px;
     width: 120px;
-}
-
-.IPHONE {
-    padding-left:950px;
-    padding-top:78px;
+      background: url(images/ip.png) no-repeat;
+      margin-left:890px;
+    margin-top:315px;
     z-index:3;
-
+    background-size: contain;
 }
 
-.MACBOOK{
-    padding-left:341px;
-    padding-top:230px;
-    z-index: 2;
-}
-.MAC{
-    padding-left:45px;
-    padding-top:5px;
-    z-index:1;
-}
 html .MACIMG img{
     height: 410px;
     width: 708px;
@@ -129,4 +129,12 @@ html .IPIMG img{
 .MBIMG {
     padding-left: 101px;
     padding-top: 70px;
+}
+
+html body .first-page-title{
+    font-size: 36px;
+    line-height:1 ;
+   text-align: right;
+   position: absolute;
+   margin-left: 830px;
 }
